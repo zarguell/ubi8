@@ -1,0 +1,18 @@
+{
+  "assignees": ["@sean.melissari"],
+  "baseBranches": ["development"],
+  "automerge": false,
+  "gitLabAutomerge": false,
+  "regexManagers": [
+    {
+      "fileMatch": ["^hardening_manifest.yaml$"],
+      "matchStrings": [
+        "org\\.opencontainers\\.image\\.version:\\s+(\\s|\"|')?(?<currentValue>.+?)(\\s|\"|'|$)",
+        "tags:\\s+-(\\s|\"|')+(?<currentValue>.+?)(\\s|\"|'|$)+"
+      ],
+      "depNameTemplate": "registry.access.redhat.com/ubi8",
+      "datasourceTemplate": "docker"
+    }
+  ]
+}
+
