@@ -100,6 +100,7 @@ RUN echo Update packages and install DISA STIG fixes && \
     # sudo not required by default in container
     #/dsop-fix/xccdf_org.ssgproject.content_rule_sudo_require_reauthentication.sh && \
     #/dsop-fix/xccdf_org.ssgproject.content_rule_sudoers_validate_passwd.sh && \
+    chmod +t /tmp /var/tmp && \
     update-ca-trust && \
     update-ca-trust force-enable && \
     dnf remove -y vim-minimal && \
