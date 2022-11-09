@@ -8,7 +8,7 @@ name: "redhat/ubi/ubi8"
 # The most specific version should be the first tag and will be shown
 # on ironbank.dsop.io
 tags:
-- "8.6"
+- "8.7"
 - "latest"
 
 # Build args passed to Dockerfile ARGs
@@ -27,7 +27,7 @@ labels:
   org.opencontainers.image.url: "https://catalog.redhat.com/software/container-stacks/detail/5ec53f50ef29fd35586d9a56"
   ## Name of the distributing entity, organization or individual
   org.opencontainers.image.vendor: "Redhat"
-  org.opencontainers.image.version: "8.6"
+  org.opencontainers.image.version: "8.7"
   ## Keywords to help with search (ex. "cicd,gitops,golang")
   mil.dso.ironbank.image.keywords: "base,os,rhel,ubi"
   ## This value can be "opensource" or "commercial"
@@ -36,11 +36,10 @@ labels:
   mil.dso.ironbank.product.name: "UBI8"
   mil.dso.ironbank.os-type: "ubi8-container"
 
-
 # List of resources to make available to the offline build context
 resources:
-- tag: registry.access.redhat.com/ubi8:8.6
-  url: docker://registry.access.redhat.com/ubi8@sha256:d55ca0e986d4cc42765ee938c911b66f08abafb3bab7b8ac96fc7b0cc5706565
+- tag: registry.access.redhat.com/ubi8:8.7
+  url: docker://registry.access.redhat.com/ubi8@sha256:83c0e63f5efb64cba26be647e93bf036b8d88b774f0726936c1b956424b1abf6
 
 # List of project maintainers
 maintainers:
