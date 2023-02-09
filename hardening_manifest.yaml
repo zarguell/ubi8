@@ -39,7 +39,7 @@ labels:
 # List of resources to make available to the offline build context
 resources:
 - tag: registry.access.redhat.com/ubi8:8.7
-  url: docker://registry.access.redhat.com/ubi8@sha256:323bb3abab06523d595d133fe82c40c13aea0242445c30c9842d34c81c221dea
+  url: docker://registry.access.redhat.com/ubi8@sha256:8be695c0f81d39eaaf674186183210a8b36e914a9a89420085629f2235aa5f7d
 
 # List of project maintainers
 maintainers:
@@ -49,7 +49,7 @@ maintainers:
 - name: Roger Seip
   email: "rseip@redhat.com"
   username: "rseip"
-- name: "Sean Melissari"
-  username: "sean.melissari"
-  email: "melissari_sean@bah.com"
+- name: "Christopher Vernooy"
+  username: "cvernooy"
+  email: "cvernooy@oteemo.com"
   cht_member: true
