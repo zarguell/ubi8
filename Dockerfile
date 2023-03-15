@@ -27,7 +27,7 @@ RUN echo Update packages and install DISA STIG fixes && \
     chmod 644 /etc/issue /etc/pki/ca-trust/source/anchors/*.pem && \
     chmod +x /dsop-fix/*.sh && \
     dnf repolist && \
-    dnf update -y && \
+    dnf update -y --exclude=redhat-release && \
     # install missing dependency for libpwquality
     dnf install -y cracklib-dicts nss && \
     echo "* hard maxlogins 10" > /etc/security/limits.d/maxlogins.conf && \
