@@ -7,7 +7,7 @@ FROM registry.access.redhat.com/ubi8:8.7
 
 COPY scripts /dsop-fix/
 
-COPY certs/Certificates_PKCS7_v5.9_DoD.pem /etc/pki/ca-trust/source/anchors/Certificates_PKCS7_v5.9_DoD.pem
+COPY certs/Certificates_PKCS7_v5.11_DoD.pem /etc/pki/ca-trust/source/anchors/Certificates_PKCS7_v5.11_DoD.pem
 COPY certs/Certificates_PKCS7_v5.13_WCF.pem /etc/pki/ca-trust/source/anchors/Certificates_PKCS7_v5.13_WCF.pem
 
 COPY banner/issue /etc/
