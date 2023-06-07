@@ -49,9 +49,9 @@ maintainers:
 - name: Roger Seip
   email: "rseip@redhat.com"
   username: "rseip"
-- name: "Christopher Vernooy"
-  username: "cvernooy"
-  email: "cvernooy@oteemo.com"
+- name: "Warren Rogers"
+  username: "wrogers"
+  email: "ironbank@dsop.io"
   cht_member: true
 - email: "ironbank@dsop.io"
   name: "Colton Freeman"
@@ -60,8 +60,4 @@ maintainers:
 - email: "ironbank@dsop.io"
   name: "Jarrod Cox"
   username: "jarrod.cox"
-  cht_member: true
-- email: "ironbank@dsop.io"
-  name: "Marquis Lindsey"
-  username: "mlindsey9106"
   cht_member: true
