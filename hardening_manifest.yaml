@@ -43,15 +43,12 @@ resources:
 
 # List of project maintainers
 maintainers:
-- name: Arian Sanchez
-  email: "arian@redhat.com"
-  username: "arisanch"
 - name: Roger Seip
   email: "rseip@redhat.com"
   username: "rseip"
-- name: "Warren Rogers"
-  username: "wrogers"
-  email: "ironbank@dsop.io"
+- name: Arian Sanchez
+  email: "arian@redhat.com"
+  username: "arisanch"
   cht_member: true
 - email: "ironbank@dsop.io"
   name: "Colton Freeman"
@@ -60,4 +57,8 @@ maintainers:
 - email: "ironbank@dsop.io"
   name: "Jarrod Cox"
   username: "jarrod.cox"
+  cht_member: true
+- name: "Robert Mueller"
+  email: "rmueller@vivsoft.io"
+  username: "rmueller"
   cht_member: true
