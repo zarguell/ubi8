@@ -39,7 +39,7 @@ labels:
 # List of resources to make available to the offline build context
 resources:
 - tag: registry.access.redhat.com/ubi8:8.8
-  url: docker://registry.access.redhat.com/ubi8@sha256:a7143118671dfc61aca46e8ab9e488500495a3c4c73a69577ca9386564614c13
+  url: docker://registry.access.redhat.com/ubi8@sha256:8fea2399f44a9dfdfa18eec4e3e5d2e1d71f0a865dd1d5c66215a6d68ccafa8a
 
 # List of project maintainers
 maintainers:
