@@ -1,5 +1,5 @@
 {
-  "assignees": ["@colton.freeman","@rmueller"],
+  "assignees": ["@arisanch","@w_scott_rogers","@colton.freeman","@jarrod.cox","@rmueller"],
   "baseBranches": ["development"],
   "automerge": false,
   "gitLabAutomerge": false,

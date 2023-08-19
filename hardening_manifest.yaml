@@ -43,9 +43,6 @@ resources:
 
 # List of project maintainers
 maintainers:
-- name: Roger Seip
-  email: "rseip@redhat.com"
-  username: "rseip"
 - name: Arian Sanchez
   email: "arian@redhat.com"
   username: "arisanch"
@@ -61,4 +58,8 @@ maintainers:
 - name: "Robert Mueller"
   email: "rmueller@vivsoft.io"
   username: "rmueller"
+  cht_member: true
+- name: "Warren Rogers"
+  username: "w_scott_rogers"
+  email: "ironbank@dsop.io"
   cht_member: true
