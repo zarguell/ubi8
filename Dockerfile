@@ -3,7 +3,7 @@
 # implementation for doing ARG based FROM instructions require replacing
 # the FROM with an already existing image (i.e. one we've previously built).
 # This prevents us from retrieving the latest image from Red Hat.
-FROM registry.access.redhat.com/ubi8:8.8
+FROM registry.access.redhat.com/ubi8:8.9
 
 COPY scripts /dsop-fix/
 
