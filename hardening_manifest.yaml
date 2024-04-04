@@ -39,7 +39,7 @@ labels:
 # List of resources to make available to the offline build context
 resources:
 - tag: registry.access.redhat.com/ubi8:8.9
-  url: docker://registry.access.redhat.com/ubi8@sha256:bce7e9f69fb7d4533447232478fd825811c760288f87a35699f9c8f030f2c1a6
+  url: docker://registry.access.redhat.com/ubi8@sha256:edc34f89cf9c818c2fb28b8ea1780f384db563ce4293dc0ab8e73ec01791e5af
 
 # List of project maintainers
 maintainers:
@@ -48,16 +48,8 @@ maintainers:
   username: "arisanch"
   cht_member: true
 - email: "ironbank@dsop.io"
-  name: "Colton Freeman"
-  username: "colton.freeman"
-  cht_member: true
-- email: "ironbank@dsop.io"
   name: "Jarrod Cox"
   username: "jarrod.cox"
-  cht_member: true
-- name: "Robert Mueller"
-  email: "rmueller@vivsoft.io"
-  username: "rmueller"
   cht_member: true
 - name: "Warren Rogers"
   username: "w_scott_rogers"
